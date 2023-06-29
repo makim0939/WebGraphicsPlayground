@@ -1,0 +1,53 @@
+{
+  "name": "webgraphicsplayground",
+  "version": "1.0.0",
+  "description": "グラフィカルなWebページを作るために描画系のライブラリを試す。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-cli serve --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makim0939/WebGraphicsPlayground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/p5": "^1.6.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/three": "^0.152.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "react-dom": "^18.2.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.8",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.1",
+    "p5": "^1.6.0",
+    "react": "^18.2.0",
+    "three": "^0.154.0"
+  },
+  "bugs": {
+    "url": "https://github.com/makim0939/WebGraphicsPlayground/issues"
+  },
+  "homepage": "https://github.com/makim0939/WebGraphicsPlayground#readme"
+}
