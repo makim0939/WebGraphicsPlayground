@@ -1,1 +1,2 @@
 # WebGraphicsPlayground
+グラフィカルなWebページを作るために描画系のライブラリを試す。
